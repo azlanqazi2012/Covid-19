@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import {NativeSelect,FormControl} from '@material-ui/core';
 import styles from './CountryPicker.module.css';
-import cx from 'classnames';
 import {fetchCountries} from '../../api';
 
 const Countrypicker =({handleCountryChange})=>{
